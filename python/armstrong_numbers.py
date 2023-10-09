@@ -10,6 +10,7 @@ def find_armstrong_numbers(numbers):
         if sum == num:
             armstrong.append(num)
         sum=0
+    print(armstrong)
     return(armstrong)
 find_armstrong_numbers([1000])
 
